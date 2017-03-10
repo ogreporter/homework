@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>Calculator Homework</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+
+
+
+    <body>
+        <h1> Let me add/subscract/multiply/divide those 2 numbers for you</h1>
+        <br>
+        <form id="one">
+            <input type="text" id="firstNumber" placeholder="First Number" />
+            <input type="text" id="secondNumber" placeholder="Second Number" />
+
+            <div id="addition">
+                When I add your first number, <span class="x">X</span>, to the second number, <span class="y">Y</span>, I get <span class="z">Z</span>.
+            </div>
+            <div id="multiply">
+                When I multiply your first number, <span class="x">X</span>, to the second number, <span class="y">Y</span>, I get <span class="z">Z</span>.
+            </div>
+            <div id="subtract">
+                When I subtract your first number, <span class="x">X</span>, to the second number, <span class="y">Y</span>, I get <span class="z">Z</span>.
+            </div>
+            <div id="divide">
+                When I divide your first number, <span class="x">X</span>, to the second number, <span class="y">Y</span>, I get <span class="z">Z</span>.
+            </div>
+
+            <input id="button" type="button" value="compute" />
+        </form>
+        <br>
+        <form>
+            <!-- THESE READONLY FIELDS WILL HOLD THE RESPONSE FROM YOUR JS, BUT USERS WON'T ACCIDENTALLY TYPE INTO THEM -->
+        </form>
+        <div id="totals">
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+
+        <!-- Your javascript should be called here -->
+    </body>
+
+</html>
